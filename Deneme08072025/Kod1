@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace Deneme08072025.Kod1
+{
+    public class Class1
+    {
+        public static void Main(string[] args)
+        {
+            string yazi;    // [01] Değişken tanımlama
+            yazi = "Merhaba Dünya"; // [02] Değişkene değer atama
+            Console.WriteLine(yazi); // [03] Değişkeni ekrana yazdırma
+            Console.ReadKey(); // [04] Kullanıcının bir tuşa basmasını bekleme
+        }
+    }
+}
